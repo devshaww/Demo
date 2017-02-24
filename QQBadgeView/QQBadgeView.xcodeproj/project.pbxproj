@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871761A81E477CC0003439BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 871761A71E477CC0003439BF /* main.m */; };
+		871761AB1E477CC0003439BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 871761AA1E477CC0003439BF /* AppDelegate.m */; };
+		871761AE1E477CC0003439BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 871761AD1E477CC0003439BF /* ViewController.m */; };
+		871761B11E477CC0003439BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871761AF1E477CC0003439BF /* Main.storyboard */; };
+		871761B31E477CC0003439BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871761B21E477CC0003439BF /* Assets.xcassets */; };
+		871761B61E477CC0003439BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871761B41E477CC0003439BF /* LaunchScreen.storyboard */; };
+		871761BF1E477D1B003439BF /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 871761BE1E477D1B003439BF /* BadgeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		871761A31E477CC0003439BF /* QQBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		871761A71E477CC0003439BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		871761A91E477CC0003439BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		871761AA1E477CC0003439BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		871761AC1E477CC0003439BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		871761AD1E477CC0003439BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		871761B01E477CC0003439BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		871761B21E477CC0003439BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		871761B51E477CC0003439BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		871761B71E477CC0003439BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871761BD1E477D1B003439BF /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		871761BE1E477D1B003439BF /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		871761A01E477CC0003439BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8717619A1E477CC0003439BF = {
+			isa = PBXGroup;
+			children = (
+				871761A51E477CC0003439BF /* QQBadgeView */,
+				871761A41E477CC0003439BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		871761A41E477CC0003439BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871761A31E477CC0003439BF /* QQBadgeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		871761A51E477CC0003439BF /* QQBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				871761AC1E477CC0003439BF /* ViewController.h */,
+				871761AD1E477CC0003439BF /* ViewController.m */,
+				871761BD1E477D1B003439BF /* BadgeView.h */,
+				871761BE1E477D1B003439BF /* BadgeView.m */,
+				871761AF1E477CC0003439BF /* Main.storyboard */,
+				871761A61E477CC0003439BF /* Supporting Files */,
+			);
+			path = QQBadgeView;
+			sourceTree = "<group>";
+		};
+		871761A61E477CC0003439BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				871761A91E477CC0003439BF /* AppDelegate.h */,
+				871761AA1E477CC0003439BF /* AppDelegate.m */,
+				871761B21E477CC0003439BF /* Assets.xcassets */,
+				871761B41E477CC0003439BF /* LaunchScreen.storyboard */,
+				871761B71E477CC0003439BF /* Info.plist */,
+				871761A71E477CC0003439BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		871761A21E477CC0003439BF /* QQBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871761BA1E477CC0003439BF /* Build configuration list for PBXNativeTarget "QQBadgeView" */;
+			buildPhases = (
+				8717619F1E477CC0003439BF /* Sources */,
+				871761A01E477CC0003439BF /* Frameworks */,
+				871761A11E477CC0003439BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQBadgeView;
+			productName = QQBadgeView;
+			productReference = 871761A31E477CC0003439BF /* QQBadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8717619B1E477CC0003439BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Shaw;
+				TargetAttributes = {
+					871761A21E477CC0003439BF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K6XMJQPP6P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8717619E1E477CC0003439BF /* Build configuration list for PBXProject "QQBadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8717619A1E477CC0003439BF;
+			productRefGroup = 871761A41E477CC0003439BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				871761A21E477CC0003439BF /* QQBadgeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		871761A11E477CC0003439BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871761B61E477CC0003439BF /* LaunchScreen.storyboard in Resources */,
+				871761B31E477CC0003439BF /* Assets.xcassets in Resources */,
+				871761B11E477CC0003439BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8717619F1E477CC0003439BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871761BF1E477D1B003439BF /* BadgeView.m in Sources */,
+				871761AE1E477CC0003439BF /* ViewController.m in Sources */,
+				871761AB1E477CC0003439BF /* AppDelegate.m in Sources */,
+				871761A81E477CC0003439BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		871761AF1E477CC0003439BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871761B01E477CC0003439BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		871761B41E477CC0003439BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871761B51E477CC0003439BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		871761B81E477CC0003439BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		871761B91E477CC0003439BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		871761BB1E477CC0003439BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6XMJQPP6P;
+				INFOPLIST_FILE = QQBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shaw.QQBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		871761BC1E477CC0003439BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6XMJQPP6P;
+				INFOPLIST_FILE = QQBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shaw.QQBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8717619E1E477CC0003439BF /* Build configuration list for PBXProject "QQBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871761B81E477CC0003439BF /* Debug */,
+				871761B91E477CC0003439BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871761BA1E477CC0003439BF /* Build configuration list for PBXNativeTarget "QQBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871761BB1E477CC0003439BF /* Debug */,
+				871761BC1E477CC0003439BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8717619B1E477CC0003439BF /* Project object */;
+}
