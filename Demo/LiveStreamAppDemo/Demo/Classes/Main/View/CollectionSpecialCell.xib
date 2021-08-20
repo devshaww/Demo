@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionSpecialCell" customModule="Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="241" height="241"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="241" height="241"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-xG-OvY">
+                        <rect key="frame" x="0.0" y="222" width="46" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="mSW-ht-if8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <state key="normal" title="成都市" image="ico_location">
+                            <color key="titleColor" systemColor="scrollViewTexturedBackgroundColor"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dev" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cl-LY-w1L">
+                        <rect key="frame" x="0.0" y="200" width="236" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="gVv-Zh-NXh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_cell_default_phone" translatesAutoresizingMaskIntoConstraints="NO" id="JQO-tB-zva">
+                        <rect key="frame" x="0.0" y="0.0" width="241" height="195"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLw-xB-0tJ">
+                        <rect key="frame" x="176" y="5" width="60" height="25"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="0.55717572770000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="FLQ-WU-YEa"/>
+                            <constraint firstAttribute="width" constant="60" id="zbh-Vj-YtP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <state key="normal" title="6741" image="Image_online">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="uQv-xG-OvY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0aD-yU-JZJ"/>
+                <constraint firstAttribute="bottom" secondItem="uQv-xG-OvY" secondAttribute="bottom" constant="5" id="DS5-uS-UF8"/>
+                <constraint firstItem="7cl-LY-w1L" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FEA-MV-cx4"/>
+                <constraint firstItem="7cl-LY-w1L" firstAttribute="top" secondItem="JQO-tB-zva" secondAttribute="bottom" constant="5" id="JVI-nJ-BU0"/>
+                <constraint firstItem="xLw-xB-0tJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="KhD-ad-IMg"/>
+                <constraint firstItem="uQv-xG-OvY" firstAttribute="top" secondItem="7cl-LY-w1L" secondAttribute="bottom" constant="5" id="LBf-fU-jFk"/>
+                <constraint firstAttribute="trailing" secondItem="7cl-LY-w1L" secondAttribute="trailing" constant="5" id="YaS-Dx-TN5"/>
+                <constraint firstAttribute="trailing" secondItem="JQO-tB-zva" secondAttribute="trailing" id="mPu-ti-fhU"/>
+                <constraint firstItem="JQO-tB-zva" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ovC-rP-9h6"/>
+                <constraint firstAttribute="trailing" secondItem="xLw-xB-0tJ" secondAttribute="trailing" constant="5" id="suy-hb-h6D"/>
+                <constraint firstItem="JQO-tB-zva" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yCX-6x-sd0"/>
+            </constraints>
+            <size key="customSize" width="241" height="241"/>
+            <connections>
+                <outlet property="locationBtn" destination="uQv-xG-OvY" id="RjD-kf-RI1"/>
+                <outlet property="nicknameLabel" destination="7cl-LY-w1L" id="jl3-aU-MFK"/>
+                <outlet property="onlineBtn" destination="xLw-xB-0tJ" id="XWT-y8-FtB"/>
+                <outlet property="photoView" destination="JQO-tB-zva" id="jTu-yA-WF8"/>
+            </connections>
+            <point key="canvasLocation" x="-205.5" y="71.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Image_online" width="16" height="16"/>
+        <image name="ico_location" width="12" height="12"/>
+        <image name="live_cell_default_phone" width="103.5" height="103.5"/>
+        <systemColor name="scrollViewTexturedBackgroundColor">
+            <color red="0.43529411764705878" green="0.44313725490196082" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
