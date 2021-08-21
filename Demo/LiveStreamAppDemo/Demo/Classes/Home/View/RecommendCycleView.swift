@@ -41,6 +41,7 @@ class RecommendCycleView: UIView {
     }
     
     override func layoutSubviews() {
+        super.layoutSubviews()
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         layout.itemSize = collectionView.bounds.size  // 拿到的是在xib里的尺寸 而不是适配屏幕后的尺寸 所以需要在layoutSubviews里调用
         layout.minimumInteritemSpacing = 0
