@@ -1,24 +1,21 @@
 # Demo
 1.Morich
 
+![QQ20240307-093510 (1)](https://github.com/devshaww/Demo/assets/22312553/46a7bb65-25b8-4c8d-a335-d5e7d3545614)
 
-https://github.com/devshaww/Demo/assets/22312553/68666973-58a7-4c38-9a63-31fa948cd40a
+https://github.com/devshaww/Demo/assets/22312553/f2cffc12-254e-4437-b767-81703a910b1f
 
 
 2.LiveStreamAppDemo
 
 [![We-Chat149908151ce5fef211ef22334b77cbe9.png](https://i.postimg.cc/RZ6g9DxR/We-Chat149908151ce5fef211ef22334b77cbe9.png)](https://postimg.cc/rDT1Ngm0)
 
-[![Aug-20-2021-22-49-49.gif](https://i.postimg.cc/DwzjSzk7/Aug-20-2021-22-49-49.gif)](https://postimg.cc/jLGQ9tS1)
+3.过往工作项目
 
-3.PastProject
-[![Fam1]<img width="569" alt="Screen Shot 2019-02-16 at 2 40 06 PM" src="https://github.com/devshaww/Demo/assets/22312553/100ecf7d-4354-44d6-9f96-05096fcccfcc">
+<img width="300" alt="3" src="https://github.com/devshaww/Demo/assets/22312553/aca22ae5-fdb9-4978-941a-17af0b8c6f04">
+<img width="569" alt="2" src="https://github.com/devshaww/Demo/assets/22312553/18a5e8b6-c5b6-40ae-88e4-e1abbf779283">
+<img width="268" alt="1" src="https://github.com/devshaww/Demo/assets/22312553/11901555-b907-4c33-8ac5-5067cf87ea43">
 
-<img width="268" alt="Screen Shot 2019-02-16 at 2 40 18 PM" src="https://github.com/devshaww/Demo/assets/22312553/797005c9-f9b4-4a89-8ada-7f1d66204989">
-
-<img width="300" alt="Screen Shot 2019-02-07 at 5 09 45 PM" src="https://github.com/devshaww/Demo/assets/22312553/c5c767f5-9bff-4b7d-b0e7-1163d14b6bce">
 
 4.QQBadgeViewDemo
-
-5.StanfordCourseDemo
 
