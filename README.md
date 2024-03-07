@@ -3,8 +3,6 @@
 
 ![QQ20240307-093510 (1)](https://github.com/devshaww/Demo/assets/22312553/46a7bb65-25b8-4c8d-a335-d5e7d3545614)
 
-https://github.com/devshaww/Demo/assets/22312553/f2cffc12-254e-4437-b767-81703a910b1f
-
 
 2.LiveStreamAppDemo
 
